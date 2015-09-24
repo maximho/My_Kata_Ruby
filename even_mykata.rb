@@ -13,5 +13,9 @@ for h in even_arr
 end
 puts even_num
 
+even_num = 0
+while even_num <= even_arr.length
+	even_num = even_num + 1
+end
 
-
+p even_num
